@@ -1547,6 +1547,7 @@ j+0aPmHsJn//2Q==
 <syslog>8</syslog>
 <status>up</status>
 <mac-acl-mode>deny-list</mac-acl-mode>
+<mfp>mfp-capable</mfp>
 <global-radius>on</global-radius>
 <open-system-authentication>on</open-system-authentication>
 <shared-key-authentication>off</shared-key-authentication>
@@ -1561,7 +1562,6 @@ j+0aPmHsJn//2Q==
 <radius-accounting>off</radius-accounting>
 <broadcast-key-refresh-rate>86400</broadcast-key-refresh-rate>
 <session-key-refresh-rate>0</session-key-refresh-rate>
-<mfp>mfp-capable</mfp>
 </bss>
 <bss name="wlan0bssvap1">
 <description>Virtual Access Point 2</description>
@@ -2107,7 +2107,6 @@ j+0aPmHsJn//2Q==
 <syslog>8</syslog>
 <status>up</status>
 <mac-acl-mode>deny-list</mac-acl-mode>
-<mfp>mfp-capable</mfp>
 <global-radius>on</global-radius>
 <open-system-authentication>on</open-system-authentication>
 <shared-key-authentication>off</shared-key-authentication>
@@ -2122,6 +2121,7 @@ j+0aPmHsJn//2Q==
 <radius-accounting>off</radius-accounting>
 <broadcast-key-refresh-rate>86400</broadcast-key-refresh-rate>
 <session-key-refresh-rate>0</session-key-refresh-rate>
+<mfp>mfp-capable</mfp>
 </bss>
 <bss name="wlan1bssvap1">
 <description>Virtual Access Point 2 - Radio 2</description>
@@ -2677,18 +2677,18 @@ j+0aPmHsJn//2Q==
 <firmware-upgrade></firmware-upgrade>
 <global-radius-server>
 <description>Global radius server settings</description>
-<encrypted-radius-key>6136306166383136643630333466326666633434373265363636383336356638326264373938356231376566383434626339306535336638343663323431666138396638613335373439663239356162373438656132356263393364643766383861396462616430613166393030396565636564393030386131663237336539</encrypted-radius-key>
+<encrypted-radius-key>3839323933613830393165323238323338386631303162663866316636663966656164663230633266666436633636613634613533613433346236356565353439373965653432316133626532353064396666633830623561366261366461633166366333326335366631653733333064326631343964333936356430353532</encrypted-radius-key>
+<encrypted-radius-backupone-key></encrypted-radius-backupone-key>
 <radius-ip-network>ipv4</radius-ip-network>
 <radius-ip>172.16.1.5</radius-ip>
-<radius-backupone-ip>172.16.1.5</radius-backupone-ip>
+<radius-backupone-ip></radius-backupone-ip>
 <radius-backuptwo-ip></radius-backuptwo-ip>
 <radius-backupthree-ip></radius-backupthree-ip>
 <radius-ipv6>::</radius-ipv6>
 <radius-backupone-ipv6></radius-backupone-ipv6>
 <radius-backuptwo-ipv6></radius-backuptwo-ipv6>
 <radius-backupthree-ipv6></radius-backupthree-ipv6>
-<radius-accounting>off</radius-accounting>
-<encrypted-radius-backupone-key>3934633630623733613661393231313333626566306530343639383361303261306332626435373464303034373431663033663134343737313736336234666266656261613465353265316239666334663036643462383866636263636531656561623434353337333763346131643466303930333835633439663965393239</encrypted-radius-backupone-key>
+<radius-accounting>on</radius-accounting>
 </global-radius-server>
 <interface name="wlan0wds0">
 <description>Wireless Distribution System - Link 1</description>
